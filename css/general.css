@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+@-moz-@viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+}
+
+
+/* CSS */
+@font-face {
+    font-family: 'GoodDog';
+    src: url(../fonts/GoodDog.otf) format('opentype');
+	src: url(../fonts/GoodDog%20copy.ttf) format('truetype');
+}
+
+html, body{
+	font-family: 'Oxygen-Light', Helvetica, Ariel;
+	font-weight:100;
+	color: #999;
+	padding: 1rem 1rem;
+	width: 100%;
+	background-color: #00AEEF;
+}
+
+
+
+header {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+main{
+	border: 0.30rem solid;
+	border-radius: 1rem;
+	
+}
+
+.main-nav ul {
+	display: inline-block;
+	list-style-type:none;
+	width: 100%;
+	text-align:center;
+}
+
+.main-nav li {
+	width: 4rem;
+	display: inline-block;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	
+}
+
+
+header {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+main{
+	border: 0.30rem solid;
+	border-radius: 1rem;
+	background-color: #FFF;
+}
+
+.main-nav ul {
+	display: inline-block;
+	list-style-type:none;
+	width: 100%;
+	text-align:center;
+}
+
+.main-nav li {
+	width: 4rem;
+	display: inline-block;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	
+}
+
+
+header {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+main{
+	border: 0.30rem solid;
+	border-radius: 1rem;
+	background-color: #FFF;
+}
+
+.main-nav ul {
+	display: inline-block;
+	list-style-type:none;
+	width: 100%;
+	text-align:center;
+}
+
+.main-nav li {
+	width: 4rem;
+	display: inline-block;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	
+}
+
+.main-nav img {
+	width: 2rem;
+}
+
+.homeicon .scheduleicon .pricesicon {
+	text-align: center;	
+}
+
+.logo-hold {
+	margin: 0 auto;
+	float: left;
+	width: 3rem;
+}
+
+.logo { 
+	width: 3rem;
+	margin-left: 1rem;
+}
+
+h1 {
+	font-family: GoodDog, Helvetica, Arial;
+	text-align:left;
+	font-size: 1.6rem;
+	font-weight: 100;
+	float: right;
+	width: 65%;
+}
+
+
+h3{
+	font-family:'Oxygen-Regular', Helvetica, Arial;
+	font-weight:400;
+	color: #999;
+	
+}
+
+h4{
+	color: #666;
+}
+
+#box, #content, #footer {
+	padding: 0 1rem;
+}
+
+#box {
+	
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+}
+
+.hidden-text{
+	display:none;
+	
+}
+
+img {
+	width: 100%;
+}
+
+#content {
+	height:auto;
+	overflow:auto;
+}
+
+#content ul{
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	list-style-type: square;
+	line-height: 1.5rem;
+}
+
+#swimgirl {
+	height: 10rem;
+	background-image: url(../images/swim.jpg);
+	background-attachment:scroll;
+	background-size:cover;
+	background-position:center;
+
+}
+
+#footer{
+	text-align: center;
+}
+
+@media only screen and (min-width: 35em){
+	.logo { 
+		width: 7rem;
+	}
+	
+	h1 {
+		font-size: 2.6rem;
+		position: absolute;
+		left: 12.5rem;
+		top: 5rem;
+	}
+	
+	.logo-hold {
+		width: 5rem;
+		margin-left: 1rem;
+	}
+	
+	.hidden-text{
+		display: block;
+	}
+	
+	.main-nav {
+		position: absolute;
+		right: 4.5rem;
+		top: 5.75rem;
+	}
+	
+	header {
+		height: 8rem;
+	}
+	
+	/* HOME CONTENT */
+	
+	.left { 
+		float: left;
+		width: 42.5%;
+	}
+	
+	.right { 
+		float: right;
+		width: 42.5%;
+	}
+		
+	.home-content {
+		overflow: auto;
+	}
+	
+	#box p{
+		line-height: 1.2rem;
+	}
+	
+	.schedule-content {
+		overflow:auto;
+	}
+	
+	.prices-content {
+		overflow:auto;
+	}
+}
